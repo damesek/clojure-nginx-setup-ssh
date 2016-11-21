@@ -10,6 +10,6 @@ cd clojure-nginx-setup-ssh
 sudo sh nginx-clojure-server-setup.ssh
 ```
 When finished the script (few Y, agree etc), check your IP address: YOURIP:8080/clojure or YOURIP:8080.
-You Clojure-Nginx server run! 
+Your Clojure-Nginx server run! 
 
 Have a nice day! :)
