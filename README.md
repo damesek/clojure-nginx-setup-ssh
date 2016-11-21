@@ -9,4 +9,7 @@ git clone https://github.com/damesek/clojure-nginx-setup-ssh.git
 cd clojure-nginx-setup-ssh
 sudo sh nginx-clojure-server-setup.ssh
 ```
-When finished the script, add your nginx.conf file to nginx-clojure-0.4.4 folder and run with ./nginx script.
+When finished the script (few Y, agree etc), check your IP address: YOURIP:8080/clojure or YOURIP:8080.
+You Clojure-Nginx server run! 
+
+Have a nice day! :)
