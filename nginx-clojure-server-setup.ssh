@@ -42,5 +42,6 @@ mkdir -p /etc/nginx
 sudo make install
 
 cd $HOME
+cp /root/clojure-nginx-setup-ssh/nginx.conf /root/nginx-clojure-0.4.4/conf/
 cd nginx-clojure-0.4.4
 ./nginx
