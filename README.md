@@ -13,3 +13,5 @@ When finished the script (few Y, agree etc), check your IP address: YOURIP:8080/
 Your Clojure-Nginx server run! 
 
 Have a nice day! :)
+
+ps. Great idea to check this version too: https://github.com/devgeniem/clojure-vagrant/blob/master/scripts/nginx-clojure.ssh
