@@ -3,3 +3,9 @@ sudo apt-get update
 sudo apt-get install mysql-server
 sudo mysql_secure_installation
 sudo mysql_install_db
+;; if fatal error: sudo cp /etc/mysql/my.cnf /usr/share/mysql/my-default.cnf
+
+;; testing
+service mysql status
+mysqladmin -p -u root version
+
