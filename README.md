@@ -10,7 +10,7 @@ lein -v
 whereis lein
 sudo mv [[whatyougetURL]] [[whatyougeturl]]1
 ```
-
+Start the setup process run these lines:
 ``` ruby
 sudo apt-get install git
 git clone https://github.com/damesek/clojure-nginx-setup-ssh.git
