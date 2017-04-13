@@ -23,7 +23,7 @@ When the script will finish (few Y, agree etc), check your IP address/ or your d
 
 Your Clojure-Nginx server is running now! ;)
 
-Put your project in the main folder, with uberjar compile and that will be load from the jars folder.
+Put your project in the main folder. Do you need to drop uberjar compiled jars in the jars folder and you can reload the server with `./nginx -s reload`.  
 
 Have a nice day!
 
