@@ -43,5 +43,11 @@ sudo make install
 
 cd $HOME
 cp /root/clojure-nginx-setup-ssh/nginx.conf /root/nginx-clojure-0.4.4/conf/
+
+wget https://raw.github.com/technomancy/leiningen/stable/bin/lein
+chmod +x lein
+sudo mv lein /usr/bin
+lein -v
+
 cd nginx-clojure-0.4.4
 ./nginx
