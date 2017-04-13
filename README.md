@@ -2,7 +2,7 @@
 Quick Clojure-Nginx server setup with ssh file 
 
 I created a quick ssh for Clojure-Nginx server setup for Ubuntu 14.04 Trusty. Around 40 steps in 1. ;)
-Update: I added lein2 too. 
+Update: I added lein2 + mongodb too. 
 
 If you installed `lein` before this, please use this code:
 ```
