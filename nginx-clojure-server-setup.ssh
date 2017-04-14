@@ -55,5 +55,15 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 service mongod status
 
+sudo apt-get install tcl8.5
+wget http://download.redis.io/releases/redis-stable.tar.gz
+tar xzf redis-stable.tar.gz
+cd redis-stable
+make
+make test
+sudo make install
+cd utils
+sudo ./install_server.sh
+
 cd nginx-clojure-0.4.4
 ./nginx
